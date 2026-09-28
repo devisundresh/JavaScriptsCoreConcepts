@@ -7,17 +7,35 @@ function test(name){
 
 test('pooja');
 
+
 //getData is expression name
 let getData = function getUserDetailsFromDashboard(username){
     console.log('getting user details for: ', username);
     return 100;
 }
 
-let data = getData('Surbhi');
-console.log(data);
+// let data = getData('Surbhi');
+// console.log(data);
+let data1 = getData;
+data1('sundresh');
+console.log(data1);
 
+
+
+//
+lengthy_Function_Name_using_here(); //calling before method only allowed.
 //getUserDetailsFromDashboard('devi'); ->can't cal when assign with expressions
 //Advantage here is lengthy function name assign short name in expressions
 let click = function lengthy_Function_Name_using_here(){
     console.log('click the element');
 }
+
+click();
+
+
+
+
+
+
+
+

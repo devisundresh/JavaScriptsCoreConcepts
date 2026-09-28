@@ -25,6 +25,6 @@ let customer2 = {
 console.log(customer1==customer2); //false
 console.log(customer1===customer2); //false
 
-console.log(JSON.stringify(customer1)==JSON.stringify(customer2)); //tru
+console.log(JSON.stringify(customer1)==JSON.stringify(customer2)); //true
 
 console.log(JSON.stringify(customer1)===JSON.stringify(customer2)); //true only false when json values change..

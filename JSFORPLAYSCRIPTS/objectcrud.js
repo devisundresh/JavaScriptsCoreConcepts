@@ -5,12 +5,14 @@ let user ={
     isActive: true
 };
 
-user.salary = 45.66;
+user.salary = 45.66; //update
 console.log(user);
 
-delete user.isActive;
+delete user.isActive; //delete
 console.log(user);
 
-user.email = 'robert@gmail.com';
-console.log(email);
+user.email = 'robert@gmail.com'; //create
+console.log(user);
+
+user.isActive
 console.log(user);
